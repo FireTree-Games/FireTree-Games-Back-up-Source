@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EAS Maker.exe" version="0.2.2.2" publicKeyToken="0701973784c47abd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1200px-Eas_new.ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EAS Maker" version="0.0.2.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EAS Maker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EAS Maker.exe" size="26592">
+      <assemblyIdentity name="EAS Maker" version="0.0.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jVOlN8YedCd7eVu6asCPyQd9wpBoJ92eWEW/lftksBY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1200px-Eas_new.ico.ico" size="2306">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X7ou8ldwIWYq/ZPiyJ6bVeXi0uvodP0GlvApDp3bPp0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EAS Maker.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-MDJGBV3\braid" issuerKeyHash="05cebbaaa0b0aa3db48e7d1bd5f5bc1ef826bab3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9hiHytAkSvKlS9qVXn6n2fDAICX+SE3GbMYIYPUSxGU=</DigestValue></Reference></SignedInfo><SignatureValue>JT+lEX3Z4wkRNvu6GngtP9OD/koxuZvw1pITE/Hd9ChCRNUT/+8AcBxcw16rG6FrS5la2cPWtKiUew9Zc3DlYH14gdg2QDxvIiGog6mlZAYFzltoPO17x0nrfH8/nxSBJU6RR3rYq0T24JWaVaV6XbwsIVJVrj3hv2T12O+DFVo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vzC2j7CnBj5Ghh0rt94ednDmAtFe9asqrexL1sPMWj3JH3teYb/Qp78YJSnhfJIsKiJUOT1lpepJYAeuySEKEs/zSLiDqB8RszW0x2o8CN/I/W5YiY/NnZSYM0VGSEfx60jWvwuyMdmPuv5kC0oIyRw06uy76KEPJ5HuoEPhqJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="65c412f56008c66cc64d48fe2520c0f0d9a77e5e95da4ba5f24a24d0ca8718f6" Description="" Url=""><as:assemblyIdentity name="EAS Maker.exe" version="0.2.2.2" publicKeyToken="0701973784c47abd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-MDJGBV3\braid</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9nDLqiVtM/ujum8wpHMDE5sFPlDwYtl45zBOcPa6+VE=</DigestValue></Reference></SignedInfo><SignatureValue>sE45XiQ7/Y9WlKe+PPiGYkw6kfNccPwsH5BzregG3mW2lVtLXW3G0dPPebAPShMeghAAye3Py3wx1h0YzrTPPxF8uFkbed5HX/l+Y0Aixpwo7YyHGqIHVQ/6Pa82Ntm+8vo1OxSwwyseyS7Dns3fW/UYYELiLM/ymefpfP9cpfk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vzC2j7CnBj5Ghh0rt94ednDmAtFe9asqrexL1sPMWj3JH3teYb/Qp78YJSnhfJIsKiJUOT1lpepJYAeuySEKEs/zSLiDqB8RszW0x2o8CN/I/W5YiY/NnZSYM0VGSEfx60jWvwuyMdmPuv5kC0oIyRw06uy76KEPJ5HuoEPhqJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQUaaFMYhveaRGx6S6iaro+DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE0ARABKAEcAQgBWADMAXABiAHIAYQBpAGQwHhcNMjEwNzI0MDE0MjA5WhcNMjIwNzI0MDc0MjA5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE0ARABKAEcAQgBWADMAXABiAHIAYQBpAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL8wto+wpwY+RoYdK7feHnZw5gLRXvWrKq3sS9bDzFo9yR97XmG/0Ke/GCUp4XySLCoiVDk9ZaXqSWAHrskhChLP80i4g6gfEbM1tMdqPAjfyP1uWImPzZ2UmDNFRkhH8etI1r8LsjHZj7r+ZAtKCMkcNOrsu+ihDyeR7qBD4aidAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAiWpZOk136vHvWPE3w7jF4ju+/MMaFjteoTKHXglSdA7YqoqzB3Jnx/F+ntukeYGxCGp3DMHtHqt9V/cL3XB2fR9BHrBnezOmA5jumgy/6AvYgsnmiKsm+tKmzp29SPZcr3aS44kmzfdOHFlLehEt6V17BMC3SACgTGdfvDuFwYI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

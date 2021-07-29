@@ -1,0 +1,10 @@
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\bin\Release\EAS Maker.exe.config
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\bin\Release\EAS Maker.exe
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\bin\Release\EAS Maker.pdb
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\obj\Release\EAS_Maker.EAS_Editor.resources
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\obj\Release\EAS_Maker.Form1.resources
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\obj\Release\EAS_Maker.Properties.Resources.resources
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\obj\Release\EAS Maker.csproj.GenerateResource.cache
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\obj\Release\EAS Maker.csproj.CoreCompileInputs.cache
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\obj\Release\EAS Maker.exe
+C:\Users\braid\OneDrive\Documents\Visual Studio 2019\Projects\EAS Maker\EAS Maker\obj\Release\EAS Maker.pdb
